@@ -1,5 +1,5 @@
 let users = [];
-let pass = [12,13];
+let pass = [];
 function addUser() {
     let user = document.querySelector("#fullName").value;
     users.push(user);
@@ -30,13 +30,16 @@ function login(){
 
 	let fname = document.querySelector("#fname").value;
 	let pass = document.querySelector("#pass").value;
-	for ( i = 0; i < users.length; i++) {
+    for ( i = 0; i < users.length; i++){
+	for ( i = 0; i < pass.length; i++){
 
-	if(fname == users[i] && pass == pass[i]){
-		console.log("loggedin");
-	}else{
-		console.log("erorr");
-
+	if(fname == users[i]){
+		alert("loggedin");
+        return	
+    }else{
+		alert("erorr");
+        return
 }
 	}	
+}
 }
