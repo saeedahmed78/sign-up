@@ -1,3 +1,6 @@
+
+//  sign-up 
+
 let users = [];
 let pass = [];
 function addUser() {
@@ -10,9 +13,12 @@ function addUser() {
     localStorage.setItem("pass", pass.join(","));
 
     alert("Sucessfully signup");
-		window.location.replace("index2.html");
+        window.location.replace("home.html");
 
 }
+
+
+// local storage
 
 function reloadUsers() {
     if (localStorage.getItem("users") !== null) {
@@ -26,6 +32,10 @@ function reloadUsers() {
 reloadUsers();
 
 
+
+// login-panle
+
+
 function login(){
 
 	let fname = document.querySelector("#fname").value;
@@ -33,8 +43,12 @@ function login(){
     for ( i = 0; i < users.length; i++){
 	for ( i = 0; i < pass.length; i++){
 
-	if(fname == users[i]){
-		alert("loggedin");
+	if(fname == users[i] ){
+        // if (pass == pass[i]) {
+	
+    	alert("loggedin");
+        window.location.replace("home.html");
+// }
         return	
     }else{
 		alert("erorr");
@@ -42,4 +56,17 @@ function login(){
 }
 	}	
 }
+}
+
+
+
+// post
+
+
+
+function post(){
+
+    let textarea = document.querySelector("#textarea").value;
+    let post = document.querySelector("#posts");
+    post.innerHTML = textarea;
 }

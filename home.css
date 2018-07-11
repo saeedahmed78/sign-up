@@ -1,0 +1,45 @@
+
+body{
+	background-image: url("images.jpg");
+	background-size: cover;	
+}
+
+.login{
+	position: absolute;
+	right: 0px;
+}
+
+.nav-tabs{
+	background-color: lightblue;
+}
+
+
+/*home page*/
+
+
+.img{
+	height: 64px;
+	width: 50px;
+	border-radius: 5px;
+	/*display: inline-block;*/
+}
+
+.img-div{
+	padding-left: 8px;
+	margin-top: 20px;
+	display: flex;
+
+}
+
+.textarea{
+	margin-left: 20px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.btn-post{
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
