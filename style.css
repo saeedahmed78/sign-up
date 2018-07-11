@@ -1,7 +1,7 @@
 body{
 	text-align: center;
 	background-image: url("images.jpg");
-	background-size: cover;
+	background-size: auto;
 }
 
 .form{
@@ -63,4 +63,6 @@ button{
 	justify-content: center;
 	margin-top: 40px;
 }
+
+
 

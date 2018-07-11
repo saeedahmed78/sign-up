@@ -62,11 +62,12 @@ function login(){
 
 // post
 
-
+// let timeline = [];
 
 function post(){
 
-    let textarea = document.querySelector("#textarea").value;
+    let textarea = document.querySelector("textarea").value;
+    // timeline.push(textarea);
     let post = document.querySelector("#posts");
-    post.innerHTML = textarea;
+    post.innerHTML += "<div>"+textarea+"</div>";
 }

@@ -43,3 +43,16 @@ body{
 
 }
 
+
+/*post*/
+
+
+#posts > div{
+	background-color: white;
+	margin-top: 20px;	
+}
+
+/*#posts>div{
+	background-color: white;
+}
+*/
