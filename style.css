@@ -1,7 +1,9 @@
 body{
 	text-align: center;
-	background-image: url("images.jpg");
-	background-size: auto;
+	background-image: url("http://i.imgur.com/DugnB83.jpg?1");
+	background-size: auto 700px;
+	background-repeat: no-repeat;
+	/*background-position: center; */
 }
 
 .form{
@@ -11,7 +13,7 @@ body{
 	width: 250px;
 	border: 1px solid black;
 	background-color: black;
-	opacity: 0.8;
+	opacity: 0.4;
 	border-radius: 5px;
 }
 
@@ -55,7 +57,7 @@ button{
 	text-align: center;
 	border: none;
 	border-radius: 2px;
-	opacity: 0.8;
+	opacity: 1;
 
 }
 .wraps{

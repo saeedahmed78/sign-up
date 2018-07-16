@@ -11,8 +11,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" media="screen" href="home.css" />
-	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="../css/home.css" />
+	<script src="../script.js"></script>
 	<title></title>
 </head>
 <body>
@@ -21,7 +21,7 @@
 			<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
 			<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
 			<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
-			<a href="index.html" class=" nav-link login" id="" >logout</a>
+			<a href="#" class=" nav-link login" id="" onclick="chackLogIn()">logout</a>
 		</div>
 	</nav>
 	<div class="tab-content" id="nav-tabContent">
@@ -35,7 +35,7 @@
             <div class="wrap-home">
 			
 			<div class="container img-div">
-                <img src="saeed.jpg" class="img">		
+                <img src="../images/saeed.jpg" class="img">		
             <textarea class="form-control textarea" id="textareaexampleFormControlTextarea1 textarea" placeholder="share something in with public" rows="2" cols="3"></textarea>
             <button class="btn btn-post" type="submit" onclick="post()">post</button>    
 		  </div>
@@ -44,10 +44,10 @@
 
 
           <div class="container" id="posts">
-              <!-- <p class="para"></p> -->
+          
               
           </div>
-
+          	
 
             </div>
         </div>
@@ -57,10 +57,14 @@
         <!-- profile start -->
 
 		<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-			
+		
+
+
 		<!-- img -->
+
+
 		<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
+  <img class="card-img-top" src="" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

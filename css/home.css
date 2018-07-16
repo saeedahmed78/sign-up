@@ -1,7 +1,10 @@
 
 body{
-	background-image: url("images.jpg");
-	background-size: cover;	
+	text-align: center;
+	background-image: url("http://i.imgur.com/DugnB83.jpg?1");
+	background-size: auto 700px;
+	background-repeat: no-repeat;
+	
 }
 
 .login{
@@ -49,10 +52,19 @@ body{
 
 #posts > div{
 	background-color: white;
-	margin-top: 20px;	
+	margin-top: 20px;
+	word-break: break-all;	
+	padding: 10px;
+	border-radius: 5px;
 }
 
-/*#posts>div{
-	background-color: white;
+
+
+
+
+/*for commint and like section*/
+
+
+.para{
+	display: none;
 }
-*/
