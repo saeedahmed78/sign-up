@@ -81,7 +81,17 @@ function post(){
 
 	let textarea = document.querySelector("textarea").value;
 	let post = document.querySelector("#posts");
-	post.innerHTML += "<div>"+textarea+"</div>";
+	post.innerHTML += "<div>" + textarea + "<br>"+ "<hr>"  +"<i class='far fa-heart' onclick='like()'>" + "</i>" + "</div>" ;
 
-	document.querySelector(".para").style.display = "block"
+	// document.querySelector(".para").style.display = "block"
 }
+
+let count = 0;
+function like(){
+	count++;
+	
+	let likes = document.querySelector(".far");
+	likes.innerHTML = count;
+
+}
+
