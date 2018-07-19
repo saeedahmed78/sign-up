@@ -3,17 +3,20 @@ body{
 	background-image: url("http://data.freehdw.com/sleeping-white-seal.jpg") ;
 	background-size: 100% 170%;
 	background-repeat: no-repeat;
+
 	
 }
 
 .form{
 	margin-top: 150px;
-	padding-top: 50px;
+	padding-top: 25px;
 	padding-bottom: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
 	width: 250px;
 	border: 1px solid black;
 	background-color: black;
-	opacity: 0.4;
+	opacity: 0.7;
 	border-radius: 5px;
 }
 
@@ -40,7 +43,7 @@ button{
 	font-weight: bold;
 	font-size: 2em;
 }
-.p1{
+p{
 	color: white;
 	padding-top: 20px;
 }
@@ -53,6 +56,8 @@ button{
 .login{
 	padding-left: 40px;
 	padding-right: 40px; 
+	padding-top: 2px;
+	padding-bottom: 2px;
 	margin-bottom: 20px;
 	text-align: center;
 	border: none;
@@ -66,5 +71,25 @@ button{
 	margin-top: 40px;
 }
 
+span{
+	color: white;
 
+}
+
+.login-btn{
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	opacity: 1;
+}
+
+
+.btn-creat{
+
+	padding-top: 3px;
+	padding-bottom: 3px;
+	opacity: 1;
+
+}
 
